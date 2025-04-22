@@ -11,12 +11,22 @@
   <link rel="canonical" href="https://www.toysandtechs.com/" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Toys and Techs - Smart Baby & Tech Reviews 2025" />
+  <meta property="og:description" content="Discover the best baby products and tech gadgets of 2025. In-depth reviews, top recommendations, and smart parenting tools." />
+  <meta property="og:image" content="https://www.toysandtechs.com/assets/images/og-image.jpg" />
+  <meta property="og:url" content="https://www.toysandtechs.com/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <h1>Toys and Techs</h1>
-      <nav>
+      <nav role="navigation">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="blog.html">Blog</a></li>
@@ -40,17 +50,17 @@
       <h3>Latest Reviews & Guides</h3>
       <div class="posts-grid">
         <article>
-          <img src="assets/images/post1-img.jpg" alt="Smart Baby Monitor" />
+          <img src="assets/images/post1-img.jpg" alt="Smart Baby Monitor - Top safety features for peace of mind" loading="lazy" />
           <h4><a href="posts/post1.html">Top 5 Smart Baby Monitors for 2025</a></h4>
           <p>Discover the best smart baby monitors offering top safety features for peace of mind.</p>
         </article>
         <article>
-          <img src="assets/images/post2-img.jpg" alt="Baby Tech Gadgets" />
+          <img src="assets/images/post2-img.jpg" alt="Essential Baby Tech Gadgets for smarter parenting in 2025" loading="lazy" />
           <h4><a href="posts/post2.html">Must-Have Baby Tech Gadgets for New Parents</a></h4>
           <p>Make parenting smarter with these essential gadgets.</p>
         </article>
         <article>
-          <img src="assets/images/post3-img.jpg" alt="Noise Canceling Headphones" />
+          <img src="assets/images/post3-img.jpg" alt="Noise-Canceling Headphones - Best options for work and relaxation" loading="lazy" />
           <h4><a href="posts/post3.html">Top 5 Noise-Canceling Headphones for Work and Play</a></h4>
           <p>Work or relax with the best ANC headphones available.</p>
         </article>
@@ -62,7 +72,7 @@
       <h3>Stay Updated</h3>
       <p>Get new reviews and deals delivered to your inbox.</p>
       <form id="newsletter-form">
-        <input type="email" name="email" placeholder="Your email address" required />
+        <input type="email" name="email" placeholder="Your email address" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
         <button type="submit">Subscribe</button>
       </form>
     </section>
